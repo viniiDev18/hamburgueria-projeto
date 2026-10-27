@@ -75,13 +75,13 @@ export type Product = {
 
 /** ATENÇÃO: itens e preços de DEMONSTRAÇÃO. Substitua pelo cardápio real. */
 export const products: Product[] = [
-  { id: "classico-1", name: "Clássico da Casa", description: "Pão macio, carne grelhada, queijo derretido e salada fresca.", price: 0, category: "classicos", image: classic },
-  { id: "classico-2", name: "Cheese Clássico", description: "O básico bem feito: carne suculenta e muito queijo.", price: 0, category: "classicos", image: classic },
-  { id: "especial-1", name: "Especial Amora", description: "Blend duplo, cebola caramelizada e um toque de molho de amora.", price: 0, category: "especiais", image: special },
-  { id: "especial-2", name: "Especial da Estação", description: "Combinação especial para quem quer mais sabor na parada.", price: 0, category: "especiais", image: special },
-  { id: "sanduiche-1", name: "Misto Prensado", description: "Pão tostado na chapa com recheio cremoso.", price: 0, category: "sanduiches", image: sandwich },
-  { id: "acomp-1", name: "Batata Frita", description: "Crocante por fora, macia por dentro, com molhos.", price: 0, category: "acompanhamentos", image: fries },
-  { id: "salgado-1", name: "Salgados Variados", description: "Opções douradas e crocantes para acompanhar.", price: 0, category: "salgados", image: salgado },
-  { id: "bebida-1", name: "Bebidas e Cafés", description: "Refrescos e cafés para completar o pedido.", price: 0, category: "bebidas", image: drink },
-  { id: "tapioca-1", name: "Tapioca Recheada", description: "Tapioca quentinha com recheio derretido.", price: 0, category: "tapiocas", image: tapioca },
-].map((p, i) => ({ ...p, price: [24.9, 27.9, 34.9, 36.9, 14.9, 16.9, 8.9, 7.9, 12.9][i] }));
+  { id: "classico-1", name: "Clássico da Casa", description: "Pão macio, carne grelhada, queijo derretido e salada fresca.", price: 24.9, category: "classicos", image: classic },
+  { id: "classico-2", name: "Cheese Clássico", description: "O básico bem feito: carne suculenta e muito queijo.", price: 27.9, category: "classicos", image: classic },
+  { id: "especial-1", name: "Especial Amora", description: "Blend duplo, cebola caramelizada e um toque de molho de amora.", price: 34.9, category: "especiais", image: special },
+  { id: "especial-2", name: "Especial da Estação", description: "Combinação especial para quem quer mais sabor na parada.", price: 36.9, category: "especiais", image: special },
+  { id: "sanduiche-1", name: "Misto Prensado", description: "Pão tostado na chapa com recheio cremoso.", price: 14.9, category: "sanduiches", image: sandwich },
+  { id: "acomp-1", name: "Batata Frita", description: "Crocante por fora, macia por dentro, com molhos.", price: 16.9, category: "acompanhamentos", image: fries },
+  { id: "salgado-1", name: "Salgados Variados", description: "Opções douradas e crocantes para acompanhar.", price: 8.9, category: "salgados", image: salgado },
+  { id: "bebida-1", name: "Bebidas e Cafés", description: "Refrescos e cafés para completar o pedido.", price: 7.9, category: "bebidas", image: drink },
+  { id: "tapioca-1", name: "Tapioca Recheada", description: "Tapioca quentinha com recheio derretido.", price: 12.9, category: "tapiocas", image: tapioca },
+];
